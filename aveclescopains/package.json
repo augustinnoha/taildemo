@@ -1,0 +1,14 @@
+{
+  "name": "aveclescopains",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss build src/style.css -o css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
