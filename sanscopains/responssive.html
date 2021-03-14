@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Sans les compains</title>
+    <style>html, body{background: white; height: 100%}; h1{color: black;}</style>
+</head>
+<body style="display: flex; flex-direction:column; align-items: center; justify-content: center;">
+
+    <h1 class="text-black text-5xl">
+        Mobile <span class="font-thin">first</span>
+    </h1>
+
+    <div>
+        <div class="text-black hidden sm:block">Je m'affiche quand l'écran fait <b>au moins 640px de largeur</b> (sm)</div>
+    
+        <div class="text-black hidden md:block">Je m'affiche quand l'écran fait <b>au moins 768px de largeur</b> (md)</div>
+
+        <div class="text-black hidden lg:block">Je m'affiche quand l'écran fait <b>au moins 1204px de largeur</b> (lg)</div>
+
+        <div class="text-black hidden xl:block">Je m'affiche quand l'écran fait <b>au moins 1280px de largeur</b> (xl)</div>
+
+        <div class="text-black hidden 2xl:block">Je m'affiche quand l'écran fait <b>au moins 1536px de largeur</b> (2xl)</div>
+    </div>
+
+</body>
+</html>
